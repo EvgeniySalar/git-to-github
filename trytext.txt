@@ -1,15 +1,13 @@
-    def calendar_day_today_check(self):
-        assert self.calendar_popup_next_page_elements().is_displayed(), "Calendar day today is not displayed"
-        print("Calendar day today is displayed")
+def add_some_day():
+    """
+    this function determines the current day and returns the day after tomorrow
+    :return: generate XPATH the day after tomorrow
+    """
 
-    def calendar_next_day_check(self):
-        assert self.calendar_popup_next_page_elements().is_displayed(), "Calendar nex day is not displayed"
-        print("Calendar nex day is displayed")
+    day_today = datetime.now()
+    print(day_today)
+    add_days = timedelta(2)
+    in_two_days = day_today + add_days
+    make_str_new_day = in_two_days.strftime('%Y-%m-%d')
+    return make_str_new_day
 
-    def search_button_check(self):
-        assert self.search_button_selection().is_enabled(), "Search button is not clicked"
-        print("Search button is clicked")
-
-    def go_next_step(self):
-        assert self.get_element_present(*MainPageLocatorsSc2.SEARCH_BUTTON), "Search button is not clicked"
-        print("Search button is clicked")
