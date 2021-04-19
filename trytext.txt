@@ -5,6 +5,7 @@ def add_some_day():
  
 		Как игнорировать файлы, которые уже отслеживаются?
  
+ 
 
     day_today = datetime.now()
     print(day_today)
