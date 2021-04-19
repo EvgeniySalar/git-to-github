@@ -1,1 +1,15 @@
-Evgeniy is well versed in developing automation tests and analyzing requirements specifications along with electromechanical automation systems and electrical drive systems. He also has experience in general software testing - command line, GUI and web applications, as well as test automation. Working with manual test documentation, manual testing.
+    def calendar_day_today_check(self):
+        assert self.calendar_popup_next_page_elements().is_displayed(), "Calendar day today is not displayed"
+        print("Calendar day today is displayed")
+
+    def calendar_next_day_check(self):
+        assert self.calendar_popup_next_page_elements().is_displayed(), "Calendar nex day is not displayed"
+        print("Calendar nex day is displayed")
+
+    def search_button_check(self):
+        assert self.search_button_selection().is_enabled(), "Search button is not clicked"
+        print("Search button is clicked")
+
+    def go_next_step(self):
+        assert self.get_element_present(*MainPageLocatorsSc2.SEARCH_BUTTON), "Search button is not clicked"
+        print("Search button is clicked")
