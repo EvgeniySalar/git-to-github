@@ -1,9 +1,19 @@
 def add_some_day():
     """
     this function determines the current day and returns the day after tomorrow
-    :return: generate XPATH the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+this function determines the current day and returns the day after tomorrow
+
  
-		Как игнорировать файлы, которые уже отслеживаются?
  
  
 
